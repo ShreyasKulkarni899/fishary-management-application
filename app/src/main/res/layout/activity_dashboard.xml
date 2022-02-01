@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dashboard"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start"
+    android:id="@+id/maindashboard">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_height="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:id="@+id/toolbar"
+        android:background="@color/DenimBlue"
+        app:titleTextColor="@color/white"
+        app:title="@string/app_name">
+    </androidx.appcompat.widget.Toolbar>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/fragmentcontainer">
+        <com.etebarian.meowbottomnavigation.MeowBottomNavigation
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:id="@+id/bottom_navigation"
+            app:mbn_circleColor="@color/white"
+            app:mbn_selectedIconColor="@color/DenimBlue"
+            app:mbn_countTextColor="@color/white"
+            app:mbn_countBackgroundColor="@color/GrayDim"
+            app:mbn_defaultIconColor="@color/white"
+            app:mbn_backgroundBottomColor="@color/DenimBlue"/>
+
+
+    </FrameLayout>
+
+</LinearLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_height="match_parent"
+        android:layout_width="200sp"
+        android:id="@+id/navigationview"
+        app:headerLayout="@layout/profileheader"
+        app:menu="@menu/profilemenu"
+        android:layout_gravity="start">
+    </com.google.android.material.navigation.NavigationView>
+
+
+
+
+
+</androidx.drawerlayout.widget.DrawerLayout>
