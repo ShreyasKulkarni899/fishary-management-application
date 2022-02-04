@@ -1,5 +1,5 @@
 # Fishary-Management-Application
-> Projectt for the stock and financial of fishary shop.
+> Project for the stock and financial of fishary shop.
 > Live demo [_here_](https://drive.google.com/drive/folders/1xnWa0HjSWonpouMKaG-jdWYYoGk-ii2I?usp=sharing). <!-- If you have the project hosted somewhere, include the link here. -->
 
 ## Table of Contents
@@ -8,7 +8,7 @@
 * [Features](#features)
 * [Screenshots](#screenshots)
 * [Setup](#setup)
-* [Usage](#usage)
+* [Dependencies](#dependencies)
 * [Project Status](#project-status)
 * [Room for Improvement](#room-for-improvement)
 * [Acknowledgements](#acknowledgements)
@@ -31,7 +31,7 @@
 
 ## Technologies Used
 - Java - latesh version.
-- Android - bumbulebee update with stable env.
+- Android Studio - bumbulebee update with stable env.
 - Firebase - free tier with min. 1gb.
 
 
@@ -48,20 +48,59 @@ List the ready features here:
 
 
 ## Setup
-What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
+- Project requirements/dependencies are they listed in bulid.gradle(app) file in project.
+- We can install the requirements/dependencies using android studio newest update, with all the updated requirements/dependencies.
 
-Proceed to describe how to install / setup one's local environment / get started with the project.
+
+## Dependencies
+`dependencies {
+
+    //noinspection GradleCompatible
+    implementation 'com.android.support:cardview-v7:28.0.0'
+    implementation 'androidx.appcompat:appcompat:1.4.1'
+    implementation 'androidx.appcompat:appcompat:1.4.1'
+    implementation "androidx.recyclerview:recyclerview:1.2.1"
+    // For control over item selection of both touch and mouse driven selection
+    implementation "androidx.recyclerview:recyclerview-selection:1.1.0"
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'com.google.android.material:material:1.6.0-alpha02'
+    implementation 'com.android.support.constraint:constraint-layout:2.0.4'
+    implementation 'com.google.android.material:material:1.5.0'
+   // implementation 'com.android.support:design:28.0.0'
+    //noinspection GradleCompatible
+    implementation 'com.android.support:design:27.0.1'
+    //implementation of the firebase database
+    implementation 'com.google.firebase:firebase-database:20.0.3'
+    // Import the BoM for the Firebase platform
+    implementation platform('com.google.firebase:firebase-bom:28.3.0')
+
+    // Declare the dependency for the Realtime Database library
+    // When using the BoM, you don't specify versions in Firebase library dependencies
+    implementation 'com.google.firebase:firebase-database'
+    // Dependency FirebaseUI for Firebase Realtime Database
+    implementation 'com.firebaseui:firebase-ui-database:6.2.1'
+    // Declare the dependency the Firebase Authentication library
+    // When using the BoM, you don't specify versions in Firebase library dependencies
+    implementation 'com.google.firebase:firebase-auth'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+
+    //bottom navigation
+    implementation 'com.etebarian:meow-bottom-navigation-java:1.2.0'
+    // Chart and graph library
+    implementation 'com.github.blackfizz:eazegraph:1.2.5l@aar'
+    implementation 'com.nineoldandroids:library:2.4.0'
 
 
-## Implmentation
-
+}`
 
 ## Project Status
-Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why.
+Project is: _in progress_ / _complete_.
 
 
 ## Room for Improvement
-Include areas you believe need improvement / could be improved. Also add TODOs for future development.
 
 Room for improvement:
 - Improvement to be done 1
@@ -74,9 +113,9 @@ To do:
 
 ## Acknowledgements
 Give credit here.
-- This project was inspired by...
-- This project was based on [this tutorial](https://www.example.com).
-- Many thanks to...
+- This project was inspired by[@lucaspassini](https://github.com/lucaspassini)
+- This project was based on [this tutorial](https://developer.android.com/studio).
+- Many thanks to youtube, stack Overflow, GFG and google.
 
 
 ## Contact
