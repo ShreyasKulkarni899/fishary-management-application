@@ -1,6 +1,6 @@
 # Fishary-Management-Application
 > Projectt for the stock and financial of fishary shop.
-> Live demo [_here_](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
+> Live demo [_here_](https://drive.google.com/drive/folders/1xnWa0HjSWonpouMKaG-jdWYYoGk-ii2I?usp=sharing). <!-- If you have the project hosted somewhere, include the link here. -->
 
 ## Table of Contents
 * [General Info](#general-information)
@@ -38,8 +38,8 @@
 ## Features
 List the ready features here:
 - Awesome Gui with newest version of material UI.
-- Awesome feature 2
-- Awesome feature 3
+- Great and very useful for the client.
+- Used the remote cloud database so that every kb of data will be available for client at any time from anywhere.
 
 
 ## Screenshots
@@ -53,11 +53,7 @@ What are the project requirements/dependencies? Where are they listed? A require
 Proceed to describe how to install / setup one's local environment / get started with the project.
 
 
-## Usage
-How does one go about using it?
-Provide various use cases and code examples here.
-
-`write-your-code-here`
+## Implmentation
 
 
 ## Project Status
@@ -72,7 +68,7 @@ Room for improvement:
 - Improvement to be done 2
 
 To do:
-- Feature to be added 1
+- Add the usage of ML kit from firebase.
 - Feature to be added 2
 
 
@@ -84,7 +80,7 @@ Give credit here.
 
 
 ## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
+Created by [@ShreyasKulkarni899](https://github.com/ShreyasKulkarni899) - feel free to contact me!
 
 
 <!-- Optional -->
