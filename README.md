@@ -53,8 +53,8 @@ List the ready features here:
 
 
 ## Dependencies
-`dependencies {
 
+`dependencies {
     //noinspection GradleCompatible
     implementation 'com.android.support:cardview-v7:28.0.0'
     implementation 'androidx.appcompat:appcompat:1.4.1'
@@ -74,7 +74,6 @@ List the ready features here:
     implementation 'com.google.firebase:firebase-database:20.0.3'
     // Import the BoM for the Firebase platform
     implementation platform('com.google.firebase:firebase-bom:28.3.0')
-
     // Declare the dependency for the Realtime Database library
     // When using the BoM, you don't specify versions in Firebase library dependencies
     implementation 'com.google.firebase:firebase-database'
@@ -86,14 +85,11 @@ List the ready features here:
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
-
     //bottom navigation
     implementation 'com.etebarian:meow-bottom-navigation-java:1.2.0'
     // Chart and graph library
     implementation 'com.github.blackfizz:eazegraph:1.2.5l@aar'
     implementation 'com.nineoldandroids:library:2.4.0'
-
-
 }`
 
 ## Project Status
