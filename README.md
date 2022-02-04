@@ -53,44 +53,16 @@ List the ready features here:
 
 
 ## Dependencies
-
-`dependencies {
-    //noinspection GradleCompatible
-    implementation 'com.android.support:cardview-v7:28.0.0'
-    implementation 'androidx.appcompat:appcompat:1.4.1'
-    implementation 'androidx.appcompat:appcompat:1.4.1'
-    implementation "androidx.recyclerview:recyclerview:1.2.1"
-    // For control over item selection of both touch and mouse driven selection
-    implementation "androidx.recyclerview:recyclerview-selection:1.1.0"
-    implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
-    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     implementation 'com.google.android.material:material:1.6.0-alpha02'
     implementation 'com.android.support.constraint:constraint-layout:2.0.4'
     implementation 'com.google.android.material:material:1.5.0'
-   // implementation 'com.android.support:design:28.0.0'
-    //noinspection GradleCompatible
-    implementation 'com.android.support:design:27.0.1'
-    //implementation of the firebase database
     implementation 'com.google.firebase:firebase-database:20.0.3'
-    // Import the BoM for the Firebase platform
-    implementation platform('com.google.firebase:firebase-bom:28.3.0')
-    // Declare the dependency for the Realtime Database library
-    // When using the BoM, you don't specify versions in Firebase library dependencies
-    implementation 'com.google.firebase:firebase-database'
-    // Dependency FirebaseUI for Firebase Realtime Database
-    implementation 'com.firebaseui:firebase-ui-database:6.2.1'
-    // Declare the dependency the Firebase Authentication library
-    // When using the BoM, you don't specify versions in Firebase library dependencies
-    implementation 'com.google.firebase:firebase-auth'
-    testImplementation 'junit:junit:4.13.2'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
     //bottom navigation
     implementation 'com.etebarian:meow-bottom-navigation-java:1.2.0'
     // Chart and graph library
     implementation 'com.github.blackfizz:eazegraph:1.2.5l@aar'
     implementation 'com.nineoldandroids:library:2.4.0'
-}`
 
 ## Project Status
 Project is: _in progress_ / _complete_.
